@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kotlin_pr2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_fragment1">You are on the first fragment!</string>
+    <string name="hello_fragment2">You are on the second fragment.</string>
+    <string name="hello_fragment3">You are on the third fragment…</string>
+    <string name="to_second">Go to the second fragment</string>
+    <string name="to_third">Go to the third fragment</string>
+</resources>
