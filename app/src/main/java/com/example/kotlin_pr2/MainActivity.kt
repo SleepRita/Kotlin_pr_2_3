@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.kotlin_pr2.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity(), FragmentChangeListener {
+class MainActivity : AppCompatActivity(){
     // Объявление переменной для привязки к разметке
     private lateinit var binding: ActivityMainBinding
 
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity(), FragmentChangeListener {
         setContentView(view)
     }
 
-    override fun replaceFragment(fragment: Fragment) {
+    fun replaceFragment(fragment: Fragment) {
         val fragmentManager = supportFragmentManager
         val transaction = fragmentManager.beginTransaction()
         transaction.replace(R.id.nav_host_fragment, fragment)
